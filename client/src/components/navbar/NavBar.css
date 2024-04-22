@@ -61,3 +61,48 @@
     top: -8px;
     right: -8px;
 }
+
+@media (max-width:1024px){
+    .navbar .logo{
+        width: 140px;
+    }
+    .navbar__menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar__right{
+        gap: 30px;
+    }
+    .navbar__right img{
+        width: 22px;
+    }
+    .navbar__right button{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width:900px){
+    .navbar .logo{
+        width: 120px;
+    }
+    .navbar__menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar__right{
+        gap: 20px;
+    }
+    .navbar__right img{
+        width: 20px;
+    }
+    .navbar__right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:767px){
+    .navbar__menu{
+        display: none;
+    }
+}
